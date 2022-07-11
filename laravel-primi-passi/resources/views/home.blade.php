@@ -7,6 +7,38 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header>
+        <ul>
+            <li><a href="/menu">Menu</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </header>
+
+
+
+
+    <style>
+        header {
+            background-color: black;
+            color: white;
+            height: 100px;
+        }
+        ul {
+            display: flex;
+            justify-content: center;
+            height: 100px;
+            align-items: center;
+        }
+
+        li {
+            margin: 0px 20px;
+            list-style: none;
+        }
+
+        a {
+            color: white;
+        }
+    </style>
 </body>
 </html>
