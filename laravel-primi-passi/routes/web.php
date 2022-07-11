@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('home');
+})->name('home');
+
+Route::get('/about', function () {  // get mi restituisce un oggetto
+    return view('about');
+})->name('about');
+
+// dentro a questo file scriveremo le rotte che ci restuitiranno html
